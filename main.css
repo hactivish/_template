@@ -1,0 +1,134 @@
+
+
+
+.box {
+text-align:center;
+color:rgb(17, 243, 50);
+position: relative;
+display: inline-block;
+padding-top:15px;
+margin:5px;
+width: 100px;
+height: 50px;
+background-color: transparent;
+border-radius: 5px;
+box-shadow: transparent;
+border-radius: 5px;
+-webkit-transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+transition: all 0.6s cubic-bezier(0.165, 0.84, 0.44, 1);
+
+
+
+
+  text-shadow:
+   
+   -1px 4px 4px #300000,
+    -1px 4px 4px #300000,
+    -1px 4px 4px #300000,
+    -1px 4px 4px #300000,
+     -1px 4px 4px #300000,
+    -1px 4px 4px #300000,
+    -1px 4px 4px #02F885,
+    -1px 4px 4px #02F885,
+     -1px 4px 4px #02F885,
+    -1px 4px 4px #02F885,
+    -1px 4px 4px #02F885,
+    -1px 4px 4px #02F885;
+
+
+}
+
+
+.box:hover {
+color:#09C4FD;
+-webkit-transform: scale(1.25, 1.25);
+transform: scale(1.25, 1.25);
+
+
+
+
+
+box-shadow:
+inset 0 0 50px #90D4AD,
+inset 20px 0 80px #90D4AD,
+inset -20px 0 80px #90D4AD,
+inset 20px 0 300px #90D4AD,
+inset -20px 0 300px #90D4AD,
+0 0 50px #90D4AD,
+-10px 0 50px #90D4AD,
+0px 0 50px #0ff;
+
+text-shadow:
+   
+   -1px 4px 4px #300000,
+    -1px 4px 4px #300000,
+    -1px 4px 4px #300000,
+    -1px 4px 4px #300000;
+}
+
+
+/*spin*/
+
+
+
+.ring {
+
+position: absolute;
+right: 100px;
+top: 100px;
+transform-origin: 18px 200px;
+-webkit-transform-origin: 18px 200px;
+}
+.seg {
+position: absolute;
+width: 36px;
+height: 20px;
+background-color:#00cc00;
+}
+.hide {
+display: none;
+}
+.long {
+height: 60px;
+}
+#win {
+position: absolute;
+right: 72px;
+top: 290px;
+width: 20px;
+height: 20px;
+border: 10px solid #FFAA00;
+background-color: #FFFFFF;
+box-shadow: 0 0 10px 10px rgba(255, 0, 0, 1);
+border-radius: 50%;
+}
+
+
+@media screen and (min-width: 800px) {
+    
+    .ring {
+        
+        position: absolute;
+        right: 100px;
+        top: 50px;
+        transform-origin: 18px 200px;
+        -webkit-transform-origin: 18px 200px;
+        }
+    
+    
+    
+    
+    #win {
+        position: absolute;
+        right: 72px;
+        top: 240px;
+        width: 20px;
+        height: 20px;
+        border: 10px solid #FFAA00;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 10px 10px rgba(255, 0, 0, 1);
+        border-radius: 50%;
+        }
+        
+       
+}
